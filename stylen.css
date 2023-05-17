@@ -1,0 +1,142 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .featured-article {
+    margin-bottom: 40px;
+  }
+  
+  .featured-article h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .article-info {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .article-info a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .featured-article img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .read-more {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    background-color: #000;
+  }
+  
+  .recent-articles h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .recent-articles ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .recent-articles li {
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+  }
+  
+  .recent-articles li a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+  }
+  
+  .recent-articles li img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .article-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .article-info .date {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
